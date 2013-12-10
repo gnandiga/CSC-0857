@@ -15,7 +15,7 @@ foreach $key (keys %hash) {
     print ">$key\n$hash{$key}\n";
 }
 
-
+die;
 @list = sort {$a<=>$b} split(/\s+/, $ohash{ref});
 
 foreach $cord (@list) {
